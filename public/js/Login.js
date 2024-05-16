@@ -12,17 +12,17 @@ const techLoginFormHandler = async (event) => {
         body: JSON.stringify({ username, password }),
         headers: { 'Content-Type': 'application/json' },
       });
-      // If the request was successful, redirect to the homepage
+
       if (response.ok) {
-        document.location.replace('/'); // When successful, load the homepage
+        document.location.replace('/'); // When successful, load homepage
       } else {
-              // If the request was unsuccessful, show an alert
+              
         alert('Failed to log in.'); // When unsuccessful, show alert
       }
     }
   };
   
-  // Event listener for the chess login form
+  // Event listener 
   const techLoginForm = document.querySelector('.tech-login-form');
   if (techLoginForm) {
     techLoginForm.addEventListener('submit', techLoginFormHandler);
