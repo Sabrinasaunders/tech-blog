@@ -27,6 +27,6 @@ I refractored some code I had written previously for my project 2 that was a sim
 
 [Link to the GitHub repo for this project](https://github.com/Sabrinasaunders/tech-blog)
 
-[Link to the deployed project on Heroku]()
+[Link to the deployed project on Heroku](https://tranquil-refuge-57471-d3be44539cbb.herokuapp.com/)
 
 
